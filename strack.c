@@ -41,6 +41,8 @@ int pop(strackArr &Str)
   {
     return 0;
   }
+  int data = Str.strack[Str.topPoint];
+  printf("栈顶元素为%d",data);
   Str.strack[Str.topPoint] = 0;
   Str.topPoint--;
   return data;
