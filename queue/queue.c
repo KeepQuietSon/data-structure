@@ -39,5 +39,5 @@ void addQue(QUE* newNode)
    QUE *Node = NodeHead->nextPoint;
    NodeHead->nextPoint =NULL;
    free(NodeHead);
-   return Node;
+   return Node; 
  }
